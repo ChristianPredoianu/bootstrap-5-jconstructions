@@ -12,6 +12,10 @@ $font-family-sans-serif: 'Poppins', sans-serif;
   justify-content: flex-end;
 }
 
+.navbar-toggler {
+  background-color: $secondary;
+}
+
 .hero-container-fluid {
   position: relative;
   height: 70vh;
@@ -23,7 +27,7 @@ $font-family-sans-serif: 'Poppins', sans-serif;
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0, 0.3);
+  background: rgb(0, 0, 0, 0.4);
   top: 0;
   left: 0;
 }
@@ -38,25 +42,25 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 
 .work-container {
   position: relative;
-  height: 20vh;
   background: #000000 url('../assets/images/office.jpg') no-repeat center;
   background-size: cover;
   padding: 10rem 0;
-}
-
-.overlay-work {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgb(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
+  /*   filter: grayscale(80%); */
 }
 
 .offcanvas {
   background-color: rgb(255, 255, 255);
 }
 
+.card-info {
+  border: none;
+}
+
 .stats-container {
-  background-color: black;
+  background-color: #000000;
+}
+
+.card-body-stats {
+  border: none;
+  background-color: #000000;
 }
