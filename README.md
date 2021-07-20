@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ChristianPredoianu/bootstrap-5-jconstructions">
-    <img src="src/assets/images/hero.jpg" alt="Logo" width="100" height="80">
+    <img src="assets/images/hero.jpg" alt="Logo" width="100" height="80">
   </a>
 
   <h3 align="center">JConstructions (Bootstrap 5)</h3>
