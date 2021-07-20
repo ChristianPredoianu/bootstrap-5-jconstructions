@@ -9,14 +9,14 @@
   <h3 align="center">JConstructions (Bootstrap 5)</h3>
 
   <p align="center">
-   My portfolio
+ JConstructions (Bootstrap 5)
     <br />
-    <a href="https://github.com/ChristianPredoianu/portfolio-v2"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ChristianPredoianu/bootstrap-5-jconstructions"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://christianpredoianu.com/">View Demo</a>
+    <a href="https://jconstructions.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/ChristianPredoianu/portfolio-v2/issues">Report Bug</a>
+    <a href="https://github.com/ChristianPredoianu/bootstrap-5-jconstructions/issues">Report Bug</a>
     · 
    
   </p>
@@ -53,18 +53,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My front end portfolio.
+A fictional website for a constuction company made with Bootstrap 5.
 
 ### Built With
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Vanilla Js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [Sass](https://sass-lang.com/)
 * [Parcel](https://parceljs.org/)
-* [Gsap](https://greensock.com/)
-* [BEM](http://getbem.com/)
-* [Local Storage + Session Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
 
 
 
@@ -84,7 +82,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ChristianPredoianu/portfolio-v2.git
+   git clone https://github.com/ChristianPredoianu/bootstrap-5-jconstructions.git
    ```
 2. Install NPM packages
    ```sh
@@ -108,14 +106,7 @@ To get a local copy up and running follow these simple steps.
    
    
 <!-- USAGE EXAMPLES -->
-## Usage
-
-
-
-1. Choose prefered color mode. Light mode or dark mode.
-2. Navigate.
-
- 
+## Usage 
 
 
 <!-- LICENSE -->
@@ -129,16 +120,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Christian Predoianu - [@linkedin](https://se.linkedin.com/in/christian-predoianu-369218157) - christianpredoianu@yahoo.com
 
-Project Link: [https://github.com/ChristianPredoianu/portfolio-v2](https://github.com/ChristianPredoianu/portfolio-v2)
+Project Link: [https://github.com/ChristianPredoianu/bootstrap-5-jconstructions](https://github.com/ChristianPredoianu/bootstrap-5-jconstructions)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Google Fonts](https://fonts.google.com/)
-* [Swiper.js](https://swiperjs.com/)
 * [Font-Awesome](https://fontawesome.com/)
-* [Typed.js](https://github.com/mattboldt/typed.js/)
+
 
 
 
