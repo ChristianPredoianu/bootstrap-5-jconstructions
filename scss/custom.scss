@@ -45,7 +45,6 @@ $font-family-sans-serif: 'Poppins', sans-serif;
   background: #000000 url('../assets/images/office.jpg') no-repeat center;
   background-size: cover;
   padding: 10rem 0;
-  /*   filter: grayscale(80%); */
 }
 
 .offcanvas {
@@ -63,4 +62,18 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 .card-body-stats {
   border: none;
   background-color: #000000;
+}
+
+.footer {
+  background-color: $secondary;
+
+  a {
+    color: #000000;
+    cursor: pointer;
+  }
+
+  i {
+    color: #000000;
+    cursor: pointer;
+  }
 }

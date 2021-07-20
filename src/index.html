@@ -56,13 +56,7 @@
         >
           <h1>Welcome to J-Constuctions</h1>
           <h2 class="fs-5">Your local constructor</h2>
-          <button
-            class="btn btn-secondary btn-lg mt-3"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
+          <button class="btn btn-secondary btn-lg mt-3" type="button">
             Contact Us
           </button>
         </div>
@@ -73,6 +67,7 @@
       class="
         container
         mt-5
+        py-5
         d-flex
         flex-column
         justify-content-center
@@ -87,7 +82,7 @@
     <div class="container py-5">
       <div class="row gy-5">
         <div class="col-sm">
-          <div class="card mx-auto" style="width: 18rem">
+          <div class="card mx-auto">
             <img
               src="../assets/images/building1.jpg"
               class="card-img-top"
@@ -104,10 +99,10 @@
           </div>
         </div>
         <div class="col-sm mx-auto">
-          <div class="card mx-auto" style="width: 18rem">
+          <div class="card mx-auto h-100">
             <img
               src="../assets/images/building2.jpg"
-              class="card-img-top"
+              class="card-img-top h-100"
               alt="building by the sea"
             />
             <div class="card-body">
@@ -121,7 +116,7 @@
           </div>
         </div>
         <div class="col-sm">
-          <div class="card mx-auto" style="width: 18rem">
+          <div class="card mx-auto">
             <img
               src="../assets/images/building3.jpg"
               class="card-img-top"
@@ -148,36 +143,12 @@
             <h3>Work with us?</h3>
           </div>
           <div class="col-sm text-center">
-            <button
-              class="btn btn-secondary btn-lg"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
-            >
+            <button class="btn btn-secondary btn-lg" type="button">
               Contact Us
             </button>
           </div>
         </div>
       </div>
-    </div>
-
-    <div
-      class="offcanvas offcanvas-end"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-    >
-      <div class="offcanvas-header text-light">
-        <h5 id="offcanvasRightLabel">Work with us</h5>
-        <button
-          type="button"
-          class="btn-close text-reset btn-light"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">...</div>
     </div>
 
     <div
@@ -187,6 +158,7 @@
         flex-column
         justify-content-center
         align-items-center
+        py-5
         my-5
         text-center
       "
@@ -195,10 +167,10 @@
       <h4 class="text-secondary">Join us on out journey</h4>
     </div>
 
-    <div class="container">
-      <div class="row gy-5">
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+    <div class="container py-5">
+      <div class="row gy-5 text-center text-md-start">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto">
             <div class="card-body">
               <i class="fas fa-thumbs-up w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Strategies</h5>
@@ -209,8 +181,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto h-100">
             <div class="card-body">
               <i class="fas fa-wrench w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Agile</h5>
@@ -221,8 +193,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto">
             <div class="card-body">
               <i class="fas fa-hard-hat w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Management</h5>
@@ -234,9 +206,9 @@
           </div>
         </div>
       </div>
-      <div class="row gy-5">
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+      <div class="row gy-5 mt-5 text-center text-md-start">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto h-100">
             <div class="card-body">
               <i class="fas fa-wrench w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Special title treatment</h5>
@@ -247,8 +219,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto">
             <div class="card-body">
               <i class="fas fa-truck-pickup w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Information</h5>
@@ -260,8 +232,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg">
-          <div class="card card-info mx-auto" style="width: 18rem">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-info mx-auto">
             <div class="card-body">
               <i class="fas fa-screwdriver w-100 mb-4 text-secondary fs-2"></i>
               <h5 class="card-title">Collaboratively</h5>
@@ -288,14 +260,16 @@
           py-5
         "
       >
-        <h3 class="secondary text-uppercase">Find a better future with us</h3>
-        <h4 class="text-secondary">Join us on out journey</h4>
+        <h3 class="text-center secondary text-uppercase">
+          Find a better future with us
+        </h3>
+        <h4 class="text-secondary text-center">Join us on out journey</h4>
       </div>
 
       <div class="container pb-5">
         <div class="row gy-5 text-center">
-          <div class="col-md">
-            <div class="card card-info mx-auto" style="width: 18rem">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-info mx-auto">
               <div class="card-body card-body-stats">
                 <h4 class="card-title text-secondary">500+</h4>
                 <h5 class="card-title mt-3">Customers</h5>
@@ -307,8 +281,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card card-info mx-auto" style="width: 18rem">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-info mx-auto">
               <div class="card-body card-body-stats">
                 <h4 class="card-title text-secondary">50000k+ $</h4>
                 <h5 class="card-title mt-3">Revenues</h5>
@@ -320,8 +294,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card card-info mx-auto" style="width: 18rem">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-info mx-auto">
               <div class="card-body card-body-stats">
                 <h4 class="card-title text-secondary">300+</h4>
                 <h5 class="card-title mt-3">Active Projects</h5>
@@ -336,6 +310,21 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center py-5">
+          <a class="navbar-brand" href="#">JConstruction</a>
+        </div>
+        <div class="w-75 container d-flex justify-content-center">
+          <div class="d-flex w-100 justify-content-around pb-5 fs-1">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./index.js"></script>
   </body>
